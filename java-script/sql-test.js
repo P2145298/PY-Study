@@ -1,0 +1,31 @@
+function check() {
+  let score = 0;
+
+  const answers = {
+    q1: "a",
+    q2: "b",
+    q3: "a",
+    q4: "b",
+    q5: "b",
+    q6: "b",
+    q7: "b",
+    q8: "c",
+    q9: "a",
+    q10: "c",
+  };
+
+  for (let key in answers) {
+    let selected = document.querySelector(`input[name="${key}"]:checked`);
+    if (selected && selected.value === answers[key]) {
+      score++;
+    }
+  }
+
+  document.getElementById("result").innerHTML =
+    "Your Score: " + score + " / 10";
+
+  setTimeout(() => {
+    document.getElementById("test-box").reset();
+    document.getElementById("result").innerHTML = "";
+  }, 3000);
+}
