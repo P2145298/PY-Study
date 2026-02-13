@@ -574,7 +574,7 @@ h1 {
   .logo h1 {
     font-size: 1.9em;
   }
-  .navbar{
+  .navbar {
     background-color: #603fb5;
   }
   .menu {
@@ -609,7 +609,7 @@ h1 {
     display: none;
   }
   .home {
-    height: 900px;
+    height: 100px;
     background-image: url(/Images/home-phone.webp);
     background-size: cover;
   }
