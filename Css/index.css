@@ -609,7 +609,7 @@ h1 {
     display: none;
   }
   .home {
-    height: 100px;
+    height: 700px;
     background-image: url(/Images/home-phone.webp);
     background-size: cover;
   }
